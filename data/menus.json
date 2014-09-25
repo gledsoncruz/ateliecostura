@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "descricao": "Principal",
+    "link": "/index.html"
+  },
+  {
+    "id": 2,
+    "descricao": "Produtos",
+    "link": "/pages/products/products.html"
+  },
+  {
+    "id": 3,
+    "descricao": "Contato",
+    "link": "/pages/contact/contact.html"
+  },
+  {
+    "id": 4,
+    "descricao": "Sobre",
+    "link": "/pages/about/about.html"
+  }
+]

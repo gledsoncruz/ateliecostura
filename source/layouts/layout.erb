@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title><%= current_page.data.title || "Ateliê da Costura" %></title>
+    <meta name="generator" content="Costura" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <%= stylesheet_link_tag "all", "bootstrap-social", "bootstrap.min", "docs", "font-awesome", "normalize", "styles" %>
+    <%= javascript_include_tag  "all", "bootstrap.min", "docs" %>
+  </head>
+  <body class="<%= page_classes %>">
+
+      <div class="navbar-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 logotipo">
+              Ateliê da Costura
+              <div class="social">
+                <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
+                <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <%= partial 'partials/menus' %>
+
+        </div><!-- /container -->
+      </div><!-- /navbar wrapper -->
+
+    <%= yield %>
+
+  </body>
+</html>
