@@ -1,8 +1,8 @@
 <% data.products.select{|product| product.available?}.each do |p| %>
 
-    <div class="row">
+    <!--div class="row"-->
 
-        <div class="col-sm-3">
+        <div class="col-sm-3 listProducts">
             <div class="col-item">
                 <div class="photo">
                     <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
@@ -14,9 +14,9 @@
                             <h5 class="price-text-color"><%= p.price %></h5>
                         </div>
                         <div class="rating hidden-sm col-md-6">
-                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                            <!--i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
                             </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
-                            </i><i class="fa fa-star"></i>
+                            </i><i class="fa fa-star"></i-->
                         </div>
                     </div>
                     <div class="separator clear-left">
@@ -26,8 +26,8 @@
                         </p>
 
                         <p class="btn-details">
-                            <i class="fa fa-list"></i>
-                            <%= link_to 'Detalhes', "/pages/products/detail/#{p.id}.html", :relative => true, :class => 'hidden-sm' %>
+                            <i class="fa fa-list"></i><%= link_to "Detalhes", p.link.to_s %>
+
                         </p>
                     </div>
                     <div class="clearfix">
@@ -35,6 +35,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    <!--/div-->
 
 <% end %>

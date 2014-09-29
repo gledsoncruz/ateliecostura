@@ -33,5 +33,19 @@
     "description": "Jaleco de alta qualidade fabricado para atender aos clientes mais exigentes",
     "price": "R$ 999,99",
     "available": true
+  },
+  {
+    "id": 6,
+    "name": "Porta talher",
+    "description": "Jaleco de alta qualidade fabricado para atender aos clientes mais exigentes",
+    "price": "R$ 999,99",
+    "available": true
+  },
+  {
+    "id": 7,
+    "name": "Porta absorvente",
+    "description": "Jaleco de alta qualidade fabricado para atender aos clientes mais exigentes",
+    "price": "R$ 999,99",
+    "available": true
   }
 ]

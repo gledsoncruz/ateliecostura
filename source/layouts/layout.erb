@@ -11,16 +11,16 @@
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <%= stylesheet_link_tag "all", "bootstrap-social", "bootstrap.min", "docs", "font-awesome", "normalize", "styles" %>
-    <%= javascript_include_tag  "all", "bootstrap.min", "docs" %>
+    <%= javascript_include_tag  "all", "bootstrap.min", "docs", "typeahead.bundle.min", "global.js" %>
   </head>
-  <body class="<%= page_classes %>">
+  <body class="<%= page_classes %>"  bgcolor="#E6E6FA">
 
       <div class="navbar-wrapper">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 logotipo">
+            <div class="col-md-12 logotipo" id="logo">
               Ateliê da Costura
-              <div class="social">
+              <div class="social" id="social_btn">
                 <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
                 <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
                 <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>

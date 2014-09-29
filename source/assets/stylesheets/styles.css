@@ -3,13 +3,24 @@
 
 body {
   padding-bottom: 40px;
-  color: #5a5a5a;
-  /*background: url(../images/bg-minimalist.jpg) no-repeat center center fixed;
+  /*background: url(../images/purple-carpet.png) repeat;*/
+  /*background-color: #808080;*/
+  /*background: url(../images/bg.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;*/
 }
+/*
+body.pages_products_products{
+
+  background: url(../images/bg-minimalist.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}*/
 
 .body-wrapper {
   padding-top: 200px;
@@ -23,7 +34,9 @@ body {
 .logotipo {
   font-family: 'Dancing Script', cursive;
   font-size: 50px;
-  color: #fff;
+  color: #ffffff;
+  text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+
 }
 
 .stitched {
@@ -90,11 +103,17 @@ body {
 }
 .marketing h2 {
   font-weight: normal;
+  /*color: #fff !important;
+  margin:.67em 0*/
 }
 .marketing .col-lg-4 p {
   margin-left: 10px;
   margin-right: 10px;
 }
+/*
+.text-center{
+  color: #fff !important;
+}*/
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -244,3 +263,6 @@ body {
     margin-right: 10px;
 }
 
+.listProducts{
+  padding-bottom: 30px;
+}
