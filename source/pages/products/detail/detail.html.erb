@@ -1,3 +1,55 @@
-<div class="container product-wrapper">
-<h1><%= p.name %></h1>
+
+<div class="container body-wrapper">
+
+<div class="col-md-3">
+<div class="row image-product-detail">
+	<% link_to "../../../assets/images/products/"+p.images[0], :class => 'fancybox', :title => p.name, :relative => true do %>
+	  <%= image_tag("products/porta_abs/porta_abs001.png", :width => '100%') %>
+	<% end %>
+</div>
+	<div class="row" style="padding-top: 10px">
+		<% p.images.each do |im| %>
+			<% link_to "../../../assets/images/products/"+im, :class => 'fancybox', :rel => 'prod-thumb',:title => p.name, :relative => true do %>
+				<%= image_tag("products/"+im, :width => '50px') %>
+			<% end %>
+		<% end %>
+	</div>
+</div>
+
+
+<div class="col-md-9">
+<table class="table table-condensed">
+     <tbody>
+         <tr>
+             <td class="h4" style="width: 15%"><strong>Cod:</strong></td>
+             <td class="h4"><%= p.id %></td>
+         </tr>
+
+         <tr>
+             <td class="h4"><strong>Nome:</strong></td>
+             <td class="h4"><%= p.name %></td>
+         </tr>
+         <tr>
+             <td class="h4"><strong>Preço:</strong></td>
+             <td class="h4"><%= p.price %></td>
+         </tr>
+
+         <tr>
+             <td class="btn-mais-info text-primary">
+                 <i class="open_info fa fa-plus-square-o"></i>
+                 <i class="open_info hide fa fa-minus-square-o"></i> Informações
+             </td>
+             <td class="h4"></td>
+         </tr>
+         <tr>
+         	<td colspan="2"><p class="open_info hide"><%= lorem.paragraphs 2 %></p></td>
+         </tr>
+
+     </tbody>
+</table>
+</div>
+
+<div class="clearfix"></div>
+
+
 </div>

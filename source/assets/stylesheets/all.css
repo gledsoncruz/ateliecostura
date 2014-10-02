@@ -1,4 +1,8 @@
-span.twitter-typeahead .tt-dropdown-menu {
+/*
+ *= require_tree .
+ */
+
+/*span.twitter-typeahead .tt-dropdown-menu {
   position: absolute;
   top: 100%;
   left: 0;
@@ -54,4 +58,4 @@ span.twitter-typeahead {
 }
 .input-group.input-group-sm span.twitter-typeahead .tt-dropdown-menu {
   top: 28px !important;
-}
+}*/

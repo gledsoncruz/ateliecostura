@@ -1,51 +1,58 @@
 [
   {
-    "id": 1,
+    "id": "001",
     "name": "Jaleco",
     "description": "Jaleco de alta qualidade fabricado para atender aos clientes mais exigentes",
     "price": "R$ 999,99",
-    "available": true
+    "available": true,
+    "images":  ["porta_abs/porta_abs001.png","porta_abs/porta_abs001.png"]
   },
   {
-    "id": 2,
+    "id": "002",
     "name": "Avental",
     "description": "Jaleco de alta qualidade fabricado para atender aos clientes mais exigentes",
     "price": "R$ 999,99",
-    "available": true
+    "available": true,
+    "images":  ["porta_abs/porta_abs001.png","porta_abs/porta_abs001.png"]
   },
   {
-    "id": 3,
+    "id": "003",
     "name": "Touca",
     "description": "Jaleco de alta qualidade fabricado para atender aos clientes mais exigentes",
     "price": "R$ 999,99",
-    "available": true
+    "available": true,
+    "images":  ["porta_abs/porta_abs001.png","porta_abs/porta_abs001.png"]
   },
   {
-    "id": 4,
+    "id": "004",
     "name": "Fronha",
     "description": "Jaleco de alta qualidade fabricado para atender aos clientes mais exigentes",
     "price": "R$ 999,99",
-    "available": true
+    "available": true,
+    "images":  ["porta_abs/porta_abs001.png","porta_abs/porta_abs001.png"]
   },
   {
-    "id": 5,
+    "id": "005",
     "name": "Embalagem",
     "description": "Jaleco de alta qualidade fabricado para atender aos clientes mais exigentes",
     "price": "R$ 999,99",
-    "available": true
+    "available": true,
+    "images":  ["porta_abs/porta_abs001.png","porta_abs/porta_abs001.png"]
   },
   {
-    "id": 6,
+    "id": "006",
     "name": "Porta talher",
     "description": "Jaleco de alta qualidade fabricado para atender aos clientes mais exigentes",
     "price": "R$ 999,99",
-    "available": true
+    "available": true,
+    "images":  ["porta_abs/porta_abs001.png","porta_abs/porta_abs001.png"]
   },
   {
-    "id": 7,
+    "id": "007",
     "name": "Porta absorvente",
     "description": "Jaleco de alta qualidade fabricado para atender aos clientes mais exigentes",
     "price": "R$ 999,99",
-    "available": true
+    "available": true,
+    "images":  ["porta_abs/porta_abs001.png","porta_abs/porta_abs002.png","porta_abs/porta_abs003.png"]
   }
 ]

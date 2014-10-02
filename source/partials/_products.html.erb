@@ -25,13 +25,12 @@
                             <a href="http://www.jquery2dotnet.com" class="hidden-sm">Add to cart</a-->
                         </p>
 
-                        <p class="btn-details">
-                            <i class="fa fa-list"></i><%= link_to "Detalhes", p.link.to_s %>
 
+                        <p class="btn-details">
+                            <i class="fa fa-list"></i><%= link_to "Detalhes",'detail/'+p.id.to_s+'.html', :class => 'detail', :relative => true %>
                         </p>
                     </div>
-                    <div class="clearfix">
-                    </div>
+                        <div class="clearfix"></div>
                 </div>
             </div>
         </div>
