@@ -21,7 +21,7 @@
     "description": "Jaleco de alta qualidade fabricado para atender aos clientes mais exigentes",
     "price": "R$ 999,99",
     "available": true,
-    "images":  ["porta_abs/porta_abs001.png","porta_abs/porta_abs001.png"]
+    "images":  ["toucas/touca001.png","porta_abs/porta_abs001.png"]
   },
   {
     "id": "004",
@@ -45,7 +45,7 @@
     "description": "Jaleco de alta qualidade fabricado para atender aos clientes mais exigentes",
     "price": "R$ 999,99",
     "available": true,
-    "images":  ["porta_abs/porta_abs001.png","porta_abs/porta_abs001.png"]
+    "images":  ["porta_talher/porta_talher001.png","porta_talher/porta_talher002.png", "porta_talher/porta_talher003.png"]
   },
   {
     "id": "007",

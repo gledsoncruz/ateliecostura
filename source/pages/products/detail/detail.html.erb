@@ -1,10 +1,12 @@
 
 <div class="container body-wrapper">
+	<div class="panel panel-default">
+	  <div class="panel-body">
 
 <div class="col-md-3">
 <div class="row image-product-detail">
 	<% link_to "../../../assets/images/products/"+p.images[0], :class => 'fancybox', :title => p.name, :relative => true do %>
-	  <%= image_tag("products/porta_abs/porta_abs001.png", :width => '100%') %>
+	  <%= image_tag("products/"+p.images[0], :width => '100%') %>
 	<% end %>
 </div>
 	<div class="row" style="padding-top: 10px">
@@ -50,6 +52,8 @@
 </div>
 
 <div class="clearfix"></div>
+</div>
+</div>
 
 
 </div>
